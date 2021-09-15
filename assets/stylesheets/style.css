@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#B0B5B3, #DBDBDB);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certificate {
+    background-color: #fff;
+    height: 80%;
+    width: 80%;
+}
+.mainHeader {
+    background-color: #fff;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-box {
+    height: 90px;
+    width: 90px;
+    background-color:#fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.heading {
+    margin-top: 2rem;
+}
+.logo {
+    height: 90px;
+}
+.mainSection {
+    background-color: #fff;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.studentName {
+    font-size: 2.5rem;
+}
+.studentAchievement {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem, 4rem;
+}
+.studentCertificateValidity {
+    font-size: 1rem;
+}
+.footerTitle {
+    background-color: #fff;
+    width: 100%;
+    height: 20%;
+    font-size: 2rem;
+    text-align: center;
+}
